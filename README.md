@@ -107,13 +107,11 @@ The assessment methodology and remediation guidance align with:
 
 ## 📁 Repository Structure
 
-.
+```
 ├── report/
-
 │   └── Security_Assessment_Report.pdf
-
 └── README.md
-
+```
 
 ---
 
