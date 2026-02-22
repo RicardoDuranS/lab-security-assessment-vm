@@ -109,7 +109,9 @@ The assessment methodology and remediation guidance align with:
 
 .
 ├── report/
+
 │   └── Security_Assessment_Report.pdf
+
 └── README.md
 
 
