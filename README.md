@@ -6,6 +6,8 @@ This repository documents a full-scope penetration testing assessment conducted 
 
 The objective of this engagement was to identify, categorize, and exploit security weaknesses, and to provide structured remediation recommendations aligned with industry security standards.
 
+The assessment demonstrates how multiple low-complexity vulnerabilities can be chained to achieve full system compromise.
+
 ---
 
 ## 🎯 Scope
@@ -70,3 +72,51 @@ Several vulnerabilities required **low attack sophistication** while resulting i
 ---
 
 ## 🔗 Attack Chain Demonstrated
+
+```
+FTP Exposure → Private SSH Key → Root Access → Full System Control
+```
+
+
+This chain illustrates how layered misconfigurations can compound into complete compromise.
+
+---
+
+## 📊 Risk Classification
+
+Findings were categorized into:
+
+- Network vulnerabilities  
+- Web application vulnerabilities  
+- Operating system vulnerabilities  
+- Database vulnerabilities  
+
+Severity levels and remediation priorities were defined based on impact and attack complexity.
+
+---
+
+## 🛠 Standards & References
+
+The assessment methodology and remediation guidance align with:
+
+- OWASP best practices  
+- NIST security guidelines  
+- CIS security controls  
+
+---
+
+## 📁 Repository Structure
+
+.
+├── report/
+│   └── Security_Assessment_Report.pdf
+└── README.md
+
+
+---
+
+## ⚠ Disclaimer
+
+This project was conducted in a controlled lab environment for educational purposes only.  
+No production systems were targeted.
+
